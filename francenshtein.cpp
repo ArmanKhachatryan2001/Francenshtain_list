@@ -54,33 +54,9 @@ private:
 };
 
 int main(){
-List<int> a;
-    a.push_back(5);
-    a.push_back(3);
-    a.push_back(1);
-    a.push_back(2);
-    a.push_back(10);
-    a.push_back(20);
-    a.push_back(0);
-    a.push_back(-3);
-    a.push_front(22);
-    a.push_front(21);
-    List<int> o = {6,7,5,4,3,3,3,3,3,34,566,0,-3};
-    //o.insert(2, 99);
-    //std::cout << (a != b);
-    //a.print();
-    //std::cout << a.size();
-    //List<int> b = std::move(a);
-    //std::cout << b;
-    //List<int> o;
-    //o = std::move(b);
-    //o.reverse();
-    //o.pop_back();
-    //o.pop_front();
-    //o.resize(15);
-    //o.assign(5, 10);
-    o.print();
+
 }
+
 template<typename T>
 void List<T>::assign(int count, const T& value)
 {
